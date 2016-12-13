@@ -1,0 +1,603 @@
+@media screen and (max-width: 959px) and (min-width: 768px) {
+/*and (max-width: 960px) and (min-width: 768px)*/
+
+    /*Шапка*/
+.conteiner {
+    max-width: 768px;
+    height: 100%;
+}
+.header--conteiner {
+
+    display: block;
+}
+.logo {
+    width: 151px;
+    margin-left: 20px;
+}
+.menu {
+    margin: 30px 8px 0;
+    width: 100%;
+}
+.menu__link {
+    margin-left: 11px;
+    margin-right: 38px;
+}
+/*Слайдер*/
+.slider {
+    margin: 0 auto;
+}
+.slider__description {
+    width: 315px;
+    padding-left: 42px;
+    box-sizing: border-box;
+}
+.slider__topic1 {
+    margin-top: 58px;
+    font-size: 3em;
+    letter-spacing: -0.65px;
+    }
+.slider__topic2 {
+    margin-top: 7px;
+    font-size: 1.5em;
+    overflow: hidden;
+    height: 24px;
+    letter-spacing: -0.3px;
+}
+.slider__text {
+    margin-top: 7px;
+    height: 100px;
+    overflow: hidden;
+    line-height: 26px;
+    text-align: justify;
+}
+.iphone__img {
+    top: -23px;
+    left: 132px;
+}
+.slider__buttons {
+    margin-left: 542px;
+    margin-top: 0;
+    padding: 37px 0 41px 0;
+}
+
+  /*Главный блок*/
+.about {
+    padding: 0px;
+}
+.about:before {
+    top: 78px;
+    left: 29px;
+}
+.about__title {
+    margin-top: 77px;
+    margin-left: 82px;
+    font-size: 1.5em;
+}
+.about__text {
+    margin-left: 82px;
+    margin-top: 3px;
+    height: 140px;
+    width: 148px;
+    text-align: justify;
+    overflow: hidden;
+}
+.aboun__link {
+    top: 9px;
+    left: 170px;
+}
+/*!--about--settings----->*/
+.comments {
+    padding-left: 81px;
+    padding-right: 50px;
+}
+.comments__img {
+    left: 18px;
+}
+.comments__topic {
+    margin-top: 31px;
+    font-size: 1.5em;
+}
+.comments__starsHere {
+    margin-top: 5px;
+    display: block;
+}
+.comments__reviews {
+    height: 145px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.buttons--comments {
+    padding: 0;
+    margin-left: 76px;
+    margin-top: 66px;
+}
+/*!-----comments----->*/
+.updates {
+    padding-right: 25px;
+}
+.updates__item {
+  margin-top: 19px;
+}
+.updates__info {
+    height: 18px;
+    overflow: hidden;
+}
+.updates__link {
+    margin-left: 241px;
+    margin-top: 20px;
+}
+/*!-----PARTNERS----->*/
+.conteiner--partners {
+    justify-content: space-between;;
+}
+.partners__brend {
+    margin: 0 21px;
+}
+  /*!--------FOOTER_TOP--------->*/
+.category--block1 {
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+.category__logo, .category__italic {
+    display: none;
+}
+.category__title--new {
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 1px 0 0 #ffffff;
+    color: #454545;
+    margin-top: 104px;
+    font-size: 1.5em;
+    display: block;
+}
+.category__title {
+    margin-top: 104px;
+    font-size: 1.5em;
+}
+.category__text {
+    width: 210px;
+    text-align: left;
+}
+.category--block2 {
+    padding-left: 28px;
+}
+.category--block2 > .category__title {
+  display: none;
+}
+/*!-------FOOTER--------->*/
+.footer {
+    height: 8.7%;
+    background-size: cover;
+}
+
+.menu--footer {
+    margin-top: 46px;
+    min-width: 690px;
+}
+.menu__link--footer {
+    margin-left: 10px;
+    margin-right: 29px;
+}
+.footer__text {
+    margin-top: 18px;
+    margin-right: 22px;
+}
+}
+/***The end min-widht 768px***/
+@media screen and (max-width: 767px) {
+/*****and (min-width:480px)******/
+.conteiner {
+    max-width: 480px;
+}
+.header--conteiner {
+    height: 176px;
+    display: block;
+}
+.logo {
+    width: 151px;
+    margin: 0 auto;
+  }
+.menu {
+    margin: 0 auto;
+    margin-top: 18px;
+    height: 100%;
+    width: 244px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.menu__link {
+    margin: 0 auto;
+    margin-top: 4px;
+    height: 38px;
+    width: 246px;
+    display: none;
+    text-align: center;
+    line-height: 38px;
+}
+/*Выпадающее меню*/
+.active-top {
+    height: 45px;
+    line-height: 53px;
+    display: block;
+    background: url(..//img/underline.png) no-repeat 100px 42px;
+    }
+.menu--top:hover {
+    margin: 14px 118px 0;
+    padding: 4px 0;
+    position: absolute;
+    width: 246px;
+    height: 264px;
+    z-index: 1;
+    background: url(..//img/bg_menu-480.png);
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+}
+.menu__link:hover {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: solid 2px #edbfff;
+    box-sizing: border-box;
+    }
+.menu--top:hover>.menu__link {
+    display: block;
+    }
+
+/*Слайдер*/
+.slider {
+    margin-top: 0;
+}
+.sliderIphone {
+  height: 246px;
+  margin-top: 27px;
+}
+.slider__description {
+    width: 52%;
+    }
+.slider__topic1 {
+    font-size: 2.25em;
+    margin-top: 57px;
+    margin-left: 40px;
+    }
+.slider__topic2 {
+    font-size: 1.125em;
+    margin-left: 40px;
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 18px;
+    }
+.slider__text {
+    display: none;
+    }
+.iphone__img {
+    width: 192px;
+    height: 310px;
+    background-size: contain;
+    overflow: hidden;
+    top: -9px;
+    left: 7px;
+}
+.slider__buttons {
+    position: relative;
+    margin-left: 203px;
+    margin-top: 22px;
+    margin-bottom: 56px;
+}
+/*ABOUT ------->  ABOUT SECTION*/
+
+.about-section {
+    height: 599px;
+    background: -webkit-linear-gradient(#745083 0%, #322539 46%);
+    background: -o-linear-gradient(#745083 0%, #322539 46%);
+    background: linear-gradient(#745083 0%, #322539 46%);
+    border-bottom: 1px solid #12191f;
+    box-sizing: border-box;
+}
+.conteiner--about-section {
+    display: block;
+}
+.about {
+    margin-top: 77px;
+    padding: 0 20px 0 83px;
+    width: 100%;
+    height:130px;
+}
+.about--speak {
+    margin-top: 27px;
+}
+.about--music {
+    margin-top: 31px;
+}
+.about:before {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    width: 30px;
+    height: 31px;
+}
+.about__title {
+    font-size: 1.5em;
+    letter-spacing: -0.2px;
+}
+.about__text {
+    margin-top: 3px;
+    height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.aboun__link {
+    position: relative;
+    top: 10px;
+    left: 315px;
+}
+/*!-- MANUALS-------->*/
+.manuals {
+    padding: 0 0 88px 0;
+}
+.conteiner--manuals {
+    flex-direction: column;
+}
+.comments {
+    margin-top: 68px;
+    padding-right: 48px;
+    padding-left: 82px;
+    width: 100%;
+    display: inline-block;
+    background-size: 417px 292px;
+    background-position-x: 44px;
+}
+.comments__img {
+    top: 19px;
+    left: 20px;
+}
+.comments__reviews {
+    margin: 0;
+    padding-top: 16px;
+    width: 100%;
+    height: 182px;
+    display: block;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+.buttons--comments {
+    margin: 59px 0 16px 123px;
+}
+.updates {
+    width: 100%;
+    padding-left: 82px;
+    padding-right: 55px;
+}
+.updates__info {
+    height: 18px;
+    overflow: hidden;
+    width: 75%;
+}
+.updates__item {
+    margin-top: 19px;
+}
+.updates__link {
+    font-size: 1.125em;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+/*------PARTNERS------->*/
+
+.conteiner--partners {
+    max-width: 480px;
+    flex-wrap: wrap;
+    padding: 0px 41px;
+    box-sizing: border-box;
+}
+.partners__brend {
+    margin: 11px 28px;
+}
+/*------FOOTER-TOP------>*/
+.conteiner--footerTop {
+    display: block;
+}
+.category__logo {
+    display: none;
+}
+.category__italic {
+  display: none;
+}
+.title--block {
+    display: none;
+}
+.category, .category--block2, .category--block3 {
+    margin: 0;
+    padding-left: 17px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.category--block1 {
+    margin-top: 62px;
+}
+.category--block2 {
+    margin-top: 36px;
+}
+.category--block3 {
+    margin-top: 39px;
+    padding-bottom: 84px;
+}
+.category__title {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.category__title--new {
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 1px 0 0 #ffffff;
+    color: #454545;
+    font-size: 1.5em;
+    margin-top: 20px;
+    display: block;
+}
+.category__text {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+/*!-------FOOTER--------->*/
+.footer {
+    height: 201px;
+    background-size: cover;
+}
+.conteiner--footer {
+    flex-direction: column;
+}
+.menu--footer {
+    width: 100%;
+    float: none;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 0;
+    padding: 0 10px;
+    margin-top: 47px;
+}
+.menu__link--footer {
+    margin: 0;
+}
+.footer__text {
+    margin: 0;
+    padding-top: 36px;
+    float: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/***!The end min-widht 480px - 767px***/
+}
+@media screen and (max-width: 479px) and (min-width:320px) {
+
+.conteiner {
+    max-width: 320px;
+}
+.menu {
+    padding: 0;
+    height: 260px;
+}
+.menu__link {
+    width: 244px;
+}
+/*Выпадающее меню*/
+.active-top {
+    background-position: 99px 42px;
+}
+.menu--top:hover {
+    margin: 18px 37px;
+    padding: 0;
+    height: 260px;
+    background-position-y: 0;
+}
+/*Слайдер*/
+.sliderIphone {
+    height: 214px;
+    background: transparent;
+}
+.conteiner--320 {
+    flex-direction: column;
+}
+.slider__description {
+    width: 100%;
+    }
+.slider__topic1 {
+    margin-top: 46px;
+    margin-left: 65px;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+}
+.slider__topic2 {
+    margin-left: 65px;
+    margin-top: 3px;
+    width: 210px;
+    letter-spacing: -0.2px;
+}
+.slider__text {
+    display: none;
+    }
+.iphone__img {
+    display: none;
+}
+.slider__buttons {
+    margin-left: 123px;
+    margin-top: 14px;
+    margin-bottom: 64px;
+}
+/*ABOUT ------->  ABOUT SECTION*/
+.about--settings {
+    margin-top: 70px;
+}
+.about--music {
+    margin-top: 43px;
+}
+.comments {
+    padding-left: 78px;
+    background-size: 255px 292px;
+}
+.comments__topic {
+    margin-top: 29px;
+    font-size: 1.5em;
+}
+.comments__starsHere {
+    display: block;
+    margin-top: 5px;
+}
+.comments__reviews {
+    padding-top: 5px;
+    padding-left: 4px;
+    height: 170px;
+}
+.buttons--comments {
+    margin-left: 63px;
+    margin-top: 55px;
+    margin-bottom: 16px;
+}
+.updates {
+    padding-left: 18px;
+    padding-right: 15px;
+}
+.updates__subtitle {
+    width: 155px;
+    overflow: hidden;
+    height: 17px;
+    margin-top: 3px;
+}
+.updates__link {
+    margin-top: 18px;
+    margin-left: 189px;
+}
+.updates__item--block2 {
+    margin-top: 17px;
+}
+.updates__item--block3 {
+    margin-top: 23px;
+}
+/*------PARTNERS------->*/
+
+.conteiner--partners {
+    padding: 2px 0 18px 0;
+}
+.partners__brend {
+    margin: 24px 29px;
+}
+.link__3, .link__4 {
+    margin: 34px 32px 15px;
+}
+/*------FOOTER-TOP------>*/
+.conteiner--footerTop {
+    display: none;
+}
+
+/*!-------FOOTER--------->*/
+.menu--footer {
+    display: none;
+}
+.footer__text {
+    padding-top: 42px;
+}
+}

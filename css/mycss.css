@@ -1,0 +1,365 @@
+body {
+    background: linear-gradient(#8f69ab 0%, #412f4a 46%);
+    font-family: "League Gothic", Arial, sans-serif;
+    font-size: 16px;
+    }
+
+p  {font-family: "Open Sans Light", Tahoma, sans-serif;
+    font-size: 1em;}
+a { text-decoration: none;
+    color: #ffffff;}
+.wrapper {  /*Главный контейнер ------>/2400px/2306px/*/
+    margin: 0 auto;
+    width: 100%;
+    max-width: 2400px;
+    height: 1px;
+    min-height: 2306px;
+    }
+  .conteiner { /*!Контейнер для внутренних блоков->max-width-->960px*/
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    }
+
+    /*****HEADER*****/
+  .header {
+    width: 100%
+    height: 36.7%;
+    background: #745083 url(..//img/bg_top.jpg) center top no-repeat;
+    }
+  .logo {
+    padding-top: 70px;
+    }
+  .logo__img {
+    display: block;
+    width: 151px;
+    height: 39px;
+    }
+  .menu {
+    margin-top: 70px;
+    margin-left: 126px;
+    margin-right: 2px;
+    width: 681px;
+    height: 39px;
+    }
+  .menu__link {
+    margin-left: 49px;
+    font-family: "League Gothic";
+    font-size: 1.5em;
+    letter-spacing: -0.2px;
+    line-height: 1.405;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 1.732px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    }
+  .menu__link:hover {
+    border-bottom: solid 2px #edbfff;
+    } /*!Меню--------->*/
+  .slider {
+    margin-top: 103px;
+    overflow: hidden;
+    }
+  .sliderIphone {
+    margin-top: 66px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.25);
+    }
+  .slider__description {
+    width: 54%;
+    max-height: 400px;
+    overflow: hidden;
+    }
+  .slider__topic1, .slider__topic2, .slider__phone {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    }
+  .slider__topic1 {
+    padding-top: 15%;
+    font-size: 3.75em;
+    letter-spacing: -1.1px;
+    color: #ffffff;
+    }
+  .slider__topic2 {
+    font-size: 2em;
+    letter-spacing: -0.48px;
+    color: #edbfff;
+    }
+  .slider__text {
+    margin-top: 1.3%;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    color: #ffffff;
+    overflow: hidden;
+    }
+  .iphone__img {
+    position: relative;
+    top: -17px;
+    left: 97px;
+    width: 270px;
+    height: 375px;
+    background-repeat: no-repeat;
+    background-image: url(..//img/Iphone.png);
+    }
+  .slider__buttons {
+    width: 86px;
+    margin-left: 74%;
+    margin-top: 93px;
+    margin-bottom: 54px;
+    }
+  .input__buttons {
+    height: 18px;
+    width: 18px;
+    margin: 0 1px 0 0;
+    }/*!----Слайдер-------->*/
+
+    /*****ABOUT-SECTION*****/
+  .about-section {
+    height: 342px;
+    border-top: 1px solid #33253a;
+    background: url(..//img/bg__body.jpg) repeat-x center top;
+    box-sizing: border-box;
+    }
+  .conteiner--about-section {
+    height: 100%;
+    }
+  .about {
+    padding: 78px 30px 60px 63px;
+    width: 33.33333%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-shadow: 1.5px 1px 1px #0f1518;
+    }
+  .about:before {
+    content: '';
+    position: absolute;
+    top: 82px;
+    left: 10px;
+    width: 30px;
+    height: 31px;
+    background: url(..//img/sprite-icons1.svg) 0 0 no-repeat;
+    background-size: cover;
+  }
+  .about__title {
+    font-size: 1.875em;
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+    }
+  .about__text {
+    margin-top: 7px;
+    line-height: 1.5em;
+    }
+  .aboun__link {
+    position: relative;
+    top: 17px;
+    left: 163px;
+    font-family:"League Gothic";
+    font-size: 1.125em;
+    text-transform: uppercase;
+    line-height: 1.333;
+    }
+  .aboun__link:hover {
+    line-height: 1.333;
+    text-shadow: 0 0 8px rgb( 255, 255, 255 );
+    } /*!--about--settings----->*/
+  .about--speak {
+    padding: 78px 12px 60px 82px;
+    }
+  .about--speak:before {
+    left: 26px;
+    background-position: 0 -32px;
+    } /*!--about--speak----->*/
+  .about--music {
+    padding: 78px 0 60px 90px;
+    }
+  .about--music:before {
+    left: 34px;
+    background-position: 0 -62px;
+    } /*!--about--music----->*/
+
+    /*****MANUALS*****/
+  .manuals {
+    padding: 100px 0 15px 0;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    background: #f9f9f9;
+    }
+  .comments {
+    /*height: 100%;*/
+    padding-left: 61px;
+    padding-right: 70px;
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+    background: url(..//img/bg_stars.png) no-repeat 23px 0;
+    }
+  .comments__img {
+    top: 17px;
+    left: 0;
+    position: absolute;
+    }
+  .comments__topic {
+    margin-top: 32px;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 1px 0 0 #cdcdcd;
+    }
+  .comments__starsHere {
+    color: #edbfff;
+    text-shadow: 1px 0 0 #faeeff;
+    }
+  .comments__reviews {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    letter-spacing: -0.1px;
+    line-height: 1.5em;
+    color: #454545;
+    text-shadow: 1px 0 0 #cdcdcd;
+    }
+  .buttons--comments {
+    margin-left: 134px;
+    margin-top: 61px;;
+    } /*!-----comments----->*/
+  .updates {
+    padding-left: 28px;
+    padding-right: 15px;
+    width: 50%;
+    box-sizing: border-box;
+    }
+  .updates__title {
+    margin-top: 32px;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 1px 0 0 #cdcdcd;
+    }
+  .updates__item {
+    margin-top: 18px;
+    margin-left: 2px;
+    overflow: hidden;
+    color: #454545;
+    }
+  .updates__img {
+    padding: 0 1px;
+    height: 48px;
+    width: 48px;
+    float: left;
+    border-radius: 50%;
+    }
+  .updates__subtitle {
+    font-family: "Open Sans ExtraBold";
+    margin-top: 4px;
+    margin-left: 65px;
+    }
+  .updates__info {
+    margin-top: 8px;
+    margin-left: 65px;
+    letter-spacing: -0.1px;
+    }
+    .updates__link {
+      margin-top: 23px;
+      margin-left: 346px;
+      display: block;
+      font-size: 1.125em;
+      color:#454545;
+      text-shadow: 1px 0 0 #cdcdcd;
+      }  /*!---MANUALS------>*/
+
+    /*****PARTNERS*****/
+  .partners {
+    padding-top: 24px;
+    padding-bottom: 26px;
+    background: #f9f9f9;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    }
+  .conteiner--partners {
+    justify-content: center;
+    }
+  .partners__brend {
+    margin: 0 34px;
+    }
+
+    /*****FOOTER-TOP*****/
+  .footer__top {
+    border-top: solid 1px #e6e6e6;
+    background: #ececec;
+    }
+  .category {
+    margin-bottom: 96px;
+    width: 33.3333%;
+    height: 300px;
+    overflow: hidden;
+    }
+  .category__logo {
+    margin-top: 98px;
+    width: 132px;
+    }
+  .category__italic {
+    font-family: Georgia;
+    margin-top: 18px;
+    font-style: italic;
+    color: #c5c5c5;
+    }
+  .category__title {
+    margin-top: 100px;
+    font-size: 1.875em;
+    color: #454545;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 1px 0 0 #ffffff;
+    }
+    .category__title--new {
+    display: none;
+    }
+  .category__text {
+    margin-top: 10px;
+    width: 270px;
+    line-height: 24px;
+    text-align: justify;
+    text-overflow: ellipsis;
+    color: #787878;
+    }
+  .category--block2 {
+    padding-left: 17px;
+    box-sizing: border-box;
+    }
+  .category--block3 {
+    padding-left: 37px;
+    box-sizing: border-box;
+    }
+
+    /*****FOOTER*****/
+  .footer {
+    height: 114px;
+    background:#ececec url(..//img/bg_bottom.jpg) no-repeat center top;
+    overflow: hidden;
+    }
+  .conteiner--footer {
+    display: block;
+    }
+  .menu--footer {
+    margin: 47px 0 0 0;
+    float: left;
+    }
+  .menu__link--footer {
+    margin-right: 5.7%;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-shadow: 1px 1.732px 2px rgba(0, 0, 0, 0.4);
+    }
+  .footer__text {
+    margin-top: 54px;
+    font-size: 0.75em;
+    float: right;
+    color: #ffffff;
+    }
+  .footer__text> span {
+    font-family: "Open Sans ExtraBold";
+    }
